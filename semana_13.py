@@ -158,9 +158,8 @@ temperaturas = [
     ]
 ]
 
-promedios = calcular_temperatura_promedio(temperaturas)
-print(promedios)
-
 # Después de acumular las temperaturas, calculamos el promedio dividiendo la temperatura total por el número de días.
 # Si num_dias es mayor que 0, calculamos el promedio; de lo contrario, asignamos un promedio de 0.
 # Definimos los datos de ejemplo y llamamos a la función calcular_temperatura_promedio para obtener y mostrar los promedios de cada ciudad
+promedios = calcular_temperatura_promedio(temperaturas)
+print(promedios)
